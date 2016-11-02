@@ -30,7 +30,6 @@ void read_iris(std::string fn, std::vector<vec_t> &data, std::vector<int> &label
         std::getline(iss, t, ',');
         label.push_back(std::stoi(t));
     }
-    ifs.close();
 }
 } // namespace csv
 } // namespace parser
