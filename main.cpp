@@ -3,7 +3,7 @@
 using namespace cc;
 
 #include "./parser.hpp"
-#include "./pca.hpp"
+#include "./matrix.hpp"
 
 int main(int argc, char *argv[]) {
     try {
